@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CirclePercentView">
+        <attr name="radius" format="dimension" />
+        <!--百分比 最大值为100-->
+        <attr name="percent" format="integer" />
+        <!--进度环底色-->
+        <attr name="progressColor" format="color" />
+        <!--中间字体大小-->
+        <attr name="centerTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
