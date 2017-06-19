@@ -164,9 +164,9 @@ public class CirclePercentView extends View {
 
 
     private void drawText(Canvas canvas) {
-        Paint numPaint = new Paint();
-        Paint powerPaint = new Paint();
-        Paint textPaint = new Paint();
+        Paint numPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        Paint powerPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        Paint textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         String num = (int) mCurPercent + "";
         String power = "电量";
         String text = "%";
